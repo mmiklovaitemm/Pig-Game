@@ -11,6 +11,7 @@
 - 📥 **Hold Button** – Players can save their points and pass the turn to the other player.
 - 🏆 **Winning Condition** – The first player to reach 100 points wins the game.
 - 🔁 **New Game Button** – Resets the game to its initial state.
+- 📱 **Mobile Version** – The game is now fully responsive, optimized for smaller screens.
 
 ---
 
