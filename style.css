@@ -29,7 +29,6 @@ main {
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
-  filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   overflow: hidden;
@@ -113,11 +112,8 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-
-  background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
-
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -168,4 +164,58 @@ main {
 
 .hidden {
   display: none;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .player {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  .score {
+    font-size: 4rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .current {
+    width: 90%;
+    padding: 1rem;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+  .current-score {
+    font-size: 2.5rem;
+  }
+  .btn {
+    position: relative;
+    left: 0;
+    transform: none;
+    margin: 1rem 0;
+  }
+  .btn--new,
+  .btn--roll,
+  .btn--hold {
+    top: auto;
+  }
+  .dice {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    margin: 1rem auto;
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 }
