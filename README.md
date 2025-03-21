@@ -4,18 +4,18 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🎲 **Dice Rolling** – A random number between 1 and 6 is generated.
-- 🔄 **Point Accumulation** – Players can accumulate points, but if they roll a "1," their current points are lost, and the turn switches.
-- 📥 **Hold Button** – Players can save their points and pass the turn to the other player.
-- 🏆 **Winning Condition** – The first player to reach 100 points wins the game.
-- 🔁 **New Game Button** – Resets the game to its initial state.
-- 📱 **Mobile Version** – The game is now fully responsive, optimized for smaller screens.
+-  **Dice Rolling** – A random number between 1 and 6 is generated.
+-  **Point Accumulation** – Players can accumulate points, but if they roll a "1," their current points are lost, and the turn switches.
+-  **Hold Button** – Players can save their points and pass the turn to the other player.
+-  **Winning Condition** – The first player to reach 100 points wins the game.
+-  **New Game Button** – Resets the game to its initial state.
+-  **Mobile Version** – The game is now fully responsive, optimized for smaller screens.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **HTML5** – Page structure
 - **CSS3** – Styling and animations
